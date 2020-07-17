@@ -776,6 +776,7 @@ i-feather svg {
 }
 
 .footer.footer-light {
+    box-shadow: 0 0rem 1rem #00000036;
     background-color:#fff1ea;
     color: #a2acba;
 }
