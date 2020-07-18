@@ -874,3 +874,111 @@ i-feather svg {
     font-size: 1.25rem;
     margin-right: 0.5rem;
 }
+
+/* ===========================Jhabar css===================================== */
+
+/* ----------flying man----------------- */
+@media (min-width: 992px){
+    .page-header{
+        margin-top: 6rem !important;
+    }
+}
+.page-header{
+    margin-top: 5rem;
+}
+.flying-man {
+    background: linear-gradient(to right, lightblue, lightgreen);
+    position: relative;
+}
+
+.flying-man img {
+    max-width: 1000px;
+    height: 50vh;
+    margin: auto;
+}
+
+.flying-man > span.tag-line {
+    position: absolute;
+    top: 10vh;
+    z-index: 10;
+    width: 100%;;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 3px 2px 10px black;
+    font-family: serif;
+}
+
+/* ---------about us---------------- */
+.bg-white{
+    background-color: rgba(255, 176, 0, 0.1) !important;
+}
+.bg-aboutus{
+    background-color: rgba(255, 176, 0, 0) !important;
+}
+.about-us {
+    /* background: linear-gradient(to right, lightblue, lightgreen);
+    margin: auto;
+    font-family: ubuntu; */
+}
+
+.about-us .row .col img {
+    position: relative;
+    bottom: 50px;
+}
+
+/* ---------------------register donate-------------------- */
+.register-donate {
+    /* font-family: ubuntu; */
+    background: rgb(255, 238, 228);
+}
+
+.register-donate-1 {
+    text-align: center;
+    background: rgba(255, 176, 0, 0.1);
+}
+
+.register-donate ul li {
+    list-style: none;
+    padding-top: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.register-donate-1 button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.register-donate-1 button.register {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    background: orange;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+.register-donate-1 button.donate {
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.1rem;
+    color: orange;
+    border-radius: 100px;
+    border: 1px solid #00000036;
+    margin-bottom: 10px;
+    transition: 300ms linear;
+}
+
+.register-donate-1 button.donate:hover {
+    padding: 1rem 2rem 1rem 2rem;
+    color: black;
+    font-size: 1.1rem;
+    color: white;
+    background: orange;
+    border-radius: 100px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    transition: 300ms linear;
+}
