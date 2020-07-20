@@ -1117,7 +1117,7 @@ i-feather svg {
 .blog>ul {
     display: flex;
     justify-content: flex-start;
-    transition: 3s linear;
+    transition: 10s linear;
 }
 
 .blog li {
@@ -1125,10 +1125,18 @@ i-feather svg {
 }
 
 .blog img {
-    width: 300px
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .blog>ul:hover {
     transform: translateX(-1800px);
-    transition: 3s linear;
+    transition: 10s linear;
+}
+
+.blog .butoon {
+    border-radius: 50px!important;
+    border: 2px solid white;
 }
