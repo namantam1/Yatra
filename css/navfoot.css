@@ -1080,10 +1080,20 @@ i-feather svg {
 }
 
 .success-stories .carder {
-    background-color: whitesmoke;
+    background-color: #ffe;
     border-radius: 70px;
     padding: 40px!important;
     text-align: center;
+    transition: 400ms linear;
+}
+
+.success-stories .aham {
+    overflow: hidden;
+}
+
+.success-stories .carder:hover {
+    transform: scale(1.3);
+    transition: 400ms linear;
 }
 
 .swiper-container {
