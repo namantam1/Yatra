@@ -1110,14 +1110,15 @@ i-feather svg {
 
 .blog {
     overflow: hidden;
+    background: #eee;
     width: 100%;
-    background: linear-gradient(to right, lightgreen, lightblue);
 }
 
 .blog>ul {
     display: flex;
     justify-content: flex-start;
-    transition: 10s linear;
+    animation: toggle 15s ease-out infinite;
+    animation-fill-mode: forwards;
 }
 
 .blog li {
@@ -1125,18 +1126,29 @@ i-feather svg {
 }
 
 .blog img {
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
     border: 1px solid white;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
-.blog>ul:hover {
-    transform: translateX(-1800px);
+
+/* .blog>ul:hover {
+    transform: translateX(-1420px);
     transition: 10s linear;
+} */
+
+@keyframes toggle {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(-1700px);
+    }
 }
 
 .blog .butoon {
     border-radius: 50px!important;
     border: 2px solid white;
+    background: wheat!important;
 }
