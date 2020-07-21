@@ -13,6 +13,8 @@
             justify-content: space-between;
             padding: 10px 20px;
             background: #ffc;
+            position: absolute;
+            width: 100%;
         }
         
         .cookie>div {
@@ -70,6 +72,11 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(".cookie button").click(() => {
+            $('.cookie').remove()
+        })
+    </script>
 </body>
 
 </html>
