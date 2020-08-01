@@ -1161,4 +1161,60 @@ i-feather svg {
     border-radius: 50px!important;
     border: 2px solid white;
     background: wheat!important;
+<<<<<<< jhabar
 }
+=======
+}
+
+/* about  */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+        .team-about {
+            background: lightgreen;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            margin-top: 6rem;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .team-about>div:nth-child(2) {
+            height: 50px;
+            background: rgb(255 247 229);
+            border-radius: 0 100px 0 0;
+        }
+        
+        .team-about button {
+            border-radius: 50px;
+        }
+        
+        .team-about .style {
+            font-family: 'Satisfy', cursive;
+            font-size: 3.5rem;
+        }
+        
+        .team-about .img {
+            width: 650px;
+            position: absolute;
+            top: -130px;
+            left: 0px;
+        }
+        
+        .col:nth-child(2) {
+            right: 150px;
+        }
+        
+        @media(max-width: 1100px) {
+            .team-about .img {
+                display: none;
+            }
+            .col:nth-child(2) {
+                right: 100px;
+                display: block!important;
+                width: 100%!important;
+            }
+            .team-about{
+                margin-top: 5rem !important;
+            }
+        }
+>>>>>>> master
