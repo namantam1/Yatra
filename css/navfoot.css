@@ -135,7 +135,9 @@ body {
     font-style: italic;
 }
 
+
 /* -----------------------css for header-------------------- */
+
 #layoutDefault {
     display: -webkit-box;
     display: flex;
@@ -217,9 +219,11 @@ body {
     -webkit-animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
     animation-timing-function: opacity cubic-bezier(0, 1, 0.4, 1);
 }
+
 .no-caret .dropdown-toggle::after {
     display: none;
 }
+
 .text-uppercase-expanded,
 .navbar-marketing .btn,
 .navbar .dropdown-menu .dropdown-header,
@@ -245,10 +249,12 @@ body {
     height: 0.875rem;
     width: 0.875rem;
 }
+
 .navbar .dropdown-menu {
     top: calc(100% + 0.5rem + 0.5rem) !important;
     font-size: 0.9rem;
-    background-color:#feeef0fa;        /*costum*/
+    background-color: #feeef0fa;
+    /*costum*/
 }
 
 .navbar .dropdown-menu .dropdown-header {
@@ -259,8 +265,10 @@ body {
 .navbar-marketing {
     -webkit-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
-    padding-top: 0.75rem;    /*1.75rem*/
-    padding-bottom: 0.75rem;    /*1.75rem*/
+    padding-top: 0.75rem;
+    /*1.75rem*/
+    padding-bottom: 0.75rem;
+    /*1.75rem*/
 }
 
 .navbar-marketing .navbar-toggler {
@@ -280,7 +288,8 @@ body {
 }
 
 .navbar-marketing .navbar-brand img {
-    height: 3rem;     /*1rem*/
+    height: 3rem;
+    /*1rem*/
 }
 
 .navbar-marketing .navbar-brand svg {
@@ -451,7 +460,8 @@ body {
 
 .dropdown-menu {
     border: none;
-    border-radius: 1rem; /*custom*/
+    border-radius: 1rem;
+    /*custom*/
     box-shadow: 0 0.15rem 1.75rem 0 rgba(31, 45, 65, 0.15);
 }
 
@@ -729,7 +739,8 @@ body {
         color: #687281 !important;
     }
     .dropdown-lg .dropdown-menu {
-        right: -26rem;                /*custom*/
+        right: -26rem;
+        /*custom*/
         min-width: 30rem;
         overflow: hidden;
     }
@@ -740,6 +751,7 @@ body {
 
 
 /* ------------------css for footer---------------- */
+
 i-feather {
     display: -webkit-inline-box !important;
     display: inline-flex !important;
@@ -777,12 +789,13 @@ i-feather svg {
 
 .footer.footer-light {
     box-shadow: 0 0rem 1rem #00000036;
-    background-color:#fff1ea;
+    background-color: #fff1ea;
     color: #a2acba;
 }
 
 
 /* -------------------css written manually----------------------- */
+
 .btn-teal {
     color: rgb(0, 0, 0);
     background-color: #ffcefa;
@@ -824,44 +837,54 @@ i-feather svg {
     box-shadow: 0 0 0 0.2rem rgba(255, 129, 238, 0.5);
 }
 
+
 /* for nav bar */
+
 .bg-transparent {
     background-color: #ffffff!important;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgb(255, 196, 196);
 }
+
 .navbar-dark .navbar-nav .nav-link:active {
     color: rgb(255, 196, 196);
 }
+
 .navbar-dark .navbar-nav .nav-link:focus {
     color: rgb(255, 196, 196);
 }
 
 
 /* navbar hamburgur button */
+
 .navbar-dark .navbar-toggler {
     color: #ff191980;
     outline: none;
     border-color: rgba(255, 255, 255, 0);
 }
 
-.footer a{
+.footer a {
     color: black;
 }
-.footer a:hover{
-    color:rgb(255, 196, 196);
+
+.footer a:hover {
+    color: rgb(255, 196, 196);
     text-decoration: none;
 }
-.footer a:active{
-    color:rgb(255, 196, 196);
+
+.footer a:active {
+    color: rgb(255, 196, 196);
     text-decoration: none;
 }
-.footer a:focus{
-    color:rgb(255, 196, 196);
+
+.footer a:focus {
+    color: rgb(255, 196, 196);
     text-decoration: none;
 }
 
@@ -875,17 +898,22 @@ i-feather svg {
     margin-right: 0.5rem;
 }
 
+
 /* ===========================Jhabar css===================================== */
 
+
 /* ----------flying man----------------- */
-@media (min-width: 992px){
-    .page-header{
+
+@media (min-width: 992px) {
+    .page-header {
         margin-top: 6rem !important;
     }
 }
-.page-header{
+
+.page-header {
     margin-top: 5rem;
 }
+
 .flying-man {
     background: linear-gradient(to right, lightblue, lightgreen);
     position: relative;
@@ -897,11 +925,12 @@ i-feather svg {
     margin: auto;
 }
 
-.flying-man > span.tag-line {
+.flying-man>span.tag-line {
     position: absolute;
     top: 6vh;
     z-index: 10;
-    width: 100%;;
+    width: 100%;
+    ;
     text-align: center;
     font-size: 2rem;
     color: white;
@@ -909,11 +938,14 @@ i-feather svg {
     /* font-family: serif; */
 }
 
+
 /* ---------about us---------------- */
-.bg-white{
+
+.bg-white {
     background-color: rgba(255, 176, 0, 0.1) !important;
 }
-.bg-aboutus{
+
+.bg-aboutus {
     background-color: rgba(255, 176, 0, 0) !important;
 }
 
@@ -922,7 +954,9 @@ i-feather svg {
     bottom: 50px;
 }
 
+
 /* ---------------------register donate-------------------- */
+
 .register-donate {
     /* font-family: ubuntu; */
     background: rgb(255, 238, 228);
@@ -961,6 +995,7 @@ i-feather svg {
     background: rgb(230, 149, 0);
     border: 1px solid white;
 }
+
 .register-donate-1 button.donate {
     padding: 1rem 2rem 1rem 2rem;
     font-size: 1.1rem;
@@ -977,7 +1012,9 @@ i-feather svg {
     border: 1px solid white;
 }
 
+
 /* --------------stories images------------- */
+
 .success-stories {
     margin: 0px;
     padding: 0px;
@@ -1043,19 +1080,21 @@ i-feather svg {
 }
 
 .success-stories .carder {
-    background-color: whitesmoke;
+    background-color: #ffe;
     border-radius: 70px;
     padding: 40px!important;
     text-align: center;
-    transition: 400ms ease-in-out;
+    transition: 400ms linear;
+}
+
+.success-stories .aham {
+    overflow: hidden;
 }
 
 .success-stories .carder:hover {
-    transform: scale(1.1);
-    transition: 400ms ease-in-out;
+    transform: scale(1.3);
+    transition: 400ms linear;
 }
-
-/* --------our blog------------------ */
 
 .swiper-container {
     width: 100%;
@@ -1081,7 +1120,7 @@ i-feather svg {
 
 .blog {
     overflow: hidden;
-    background: #e9dddd52;
+    background: #eee;
     width: 100%;
 }
 
@@ -1122,6 +1161,9 @@ i-feather svg {
     border-radius: 50px!important;
     border: 2px solid white;
     background: wheat!important;
+<<<<<<< jhabar
+}
+=======
 }
 
 /* about  */
@@ -1175,3 +1217,4 @@ i-feather svg {
                 margin-top: 5rem !important;
             }
         }
+>>>>>>> master
